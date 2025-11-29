@@ -1,0 +1,12 @@
+/* Configura o corpo para usar flexbox em coluna */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body tenha pelo menos 100% da altura da viewport */
+    margin: 0; /* Remove margem padrão */
+}
+
+/* Permite que o ponto de montagem do React ocupe o espaço restante */
+#root {
+    flex-grow: 1; 
+}
